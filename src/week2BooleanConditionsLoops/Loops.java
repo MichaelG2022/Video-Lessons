@@ -61,9 +61,27 @@ public class Loops {
 					x++;
 				} while (x < 10);
 				
+				
+		// Learned from a Mastery Class question
+			// Create a Do-While loop that prints the user word once if the length is 5 or less, and prints the user word userWord.length()
+				// number of times if longer than 5.
+			String word = "Bobby";
+			int counter = 0;
+			do {
+				System.out.println(word);
+				counter++;
+				if (word.length() <= 5) {
+					break;
+				}
+			} 	
+			while (counter < word.length());
+			
+				
 		//ENHANCED FOR loop - performs an operation for each item in a collection/list/array
 				//Each time you use the word each in explaining the logic, it calls for an ENHANCED FOR loop
-				
+//				for (String word : StringArray) {
+//					do some action
+//				}
 				
 				
 				

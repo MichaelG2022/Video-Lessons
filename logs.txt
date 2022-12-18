@@ -1,0 +1,4 @@
+Fri Dec 09 14:57:28 CST 2022 INFO - Hello
+Fri Dec 09 14:57:28 CST 2022 WARNING - This is a warning
+Fri Dec 09 14:57:28 CST 2022 ERROR - Oops, this is an error!
+Fri Dec 09 14:57:28 CST 2022 FATAL!!!! - Fatal error
